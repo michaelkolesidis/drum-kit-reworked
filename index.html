@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Electronic Drum Kit</title>
+</head>
+<body>
+    <div class="header">Electronic Drum Kit</div>
+
+    <div class="keys">
+        <div data-key="65" class="key">
+            <span>A</span><br>
+            <span class="sound">Kick</span>
+        </div>        
+        <div data-key="83" class="key">
+            <span>S</span><br>
+            <span class="sound">Clap</span>
+        </div> 
+        <div data-key="68" class="key">
+            <span>D</span><br>
+            <span class="sound">Hi-Hat</span>
+        </div>  
+        <div data-key="70" class="key">
+            <span>F</span><br>
+            <span class="sound">Snare</span>
+        </div>  
+        <div data-key="71" class="key">
+            <span>G</span><br>
+            <span class="sound">Conga</span>
+        </div>  
+    </div>
+
+    <audio data-key="65" src="./sounds/kick.wav"></audio>
+    <audio data-key="83" src="./sounds/clap.wav"></audio>
+    <audio data-key="68" src="./sounds/hihat.wav"></audio>
+    <audio data-key="70" src="./sounds/snare.wav"></audio>
+    <audio data-key="71" src="./sounds/conga.wav"></audio>
+
+    <div class="instructions">Use your keyboard to play.</div>
+    <script src="./drumkit.js"></script>
+
+    <div class="footer">Made with ♥ by Michael Kolesidis</div>
+</body>
+</html>

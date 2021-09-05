@@ -1,0 +1,79 @@
+html {
+    place-items: center;
+    background: rgb(102, 102, 102);
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+.header {
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    margin: 1em;
+}
+
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 50vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5em;
+}
+
+.key {
+    border: 0.4rem solid rgb(133, 133, 133);
+    font-size: 2em;
+    padding-top: .8em;
+    padding-bottom: .8em;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    font-weight: 600;
+    transition: all .07s ease;
+    background-color: rgb(133, 133, 133);
+    margin: 0.2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    letter-spacing: 0.03em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: rgb(248, 210, 80);
+    /* box-shadoaw: 0 0 1rem rgb(248, 210, 80); */
+}
+
+.sound {
+    color: rgb(194, 193, 193);
+    font-weight: 500;
+    font-size: 0.6em;
+}
+
+.instructions {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 1em;
+    letter-spacing: 0.03em;
+    line-height: 1.5em;
+}
+
+.footer {
+    color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    letter-spacing: 0.03em;
+    line-height: 1.5em;
+    text-align: center;
+    font-size: 1.2em;
+    color: rgb(179, 179, 179)
+}
